@@ -59,5 +59,23 @@ namespace ShootingGame.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Batman_Theme {
+            get {
+                return ResourceManager.GetStream("Batman_Theme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Computer_Error_Song {
+            get {
+                return ResourceManager.GetStream("Computer_Error_Song", resourceCulture);
+            }
+        }
     }
 }

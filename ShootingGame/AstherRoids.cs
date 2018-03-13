@@ -15,7 +15,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Diagnostics;
 using System.Media;
-
+using System.IO;
 
 namespace ShootingGame
 {
@@ -55,9 +55,11 @@ namespace ShootingGame
 
         protected Size s;
 
-        SoundPlayer endSound = new SoundPlayer(@"Computer Error Song.wav");
+        
 
-        SoundPlayer ingameSound = new SoundPlayer(@"Batman Theme.wav");
+        SoundPlayer endSound = new SoundPlayer(Properties.Resources.Computer_Error_Song);
+
+        SoundPlayer ingameSound = new SoundPlayer(Properties.Resources.Batman_Theme);
 
         private bool inSound = false;
 

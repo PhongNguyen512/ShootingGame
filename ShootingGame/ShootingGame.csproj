@@ -96,6 +96,12 @@
   <ItemGroup>
     <None Include="bin\Debug\Computer Error Song.mp3" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Addional Files\Batman Theme.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Addional Files\Computer Error Song.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
