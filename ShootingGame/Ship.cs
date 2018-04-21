@@ -104,13 +104,6 @@ namespace ShootingGame
                 gpClone.AddPath(gpWrap, true);
             }
 
-
-
-
-
-
-
-
             return gpClone;
         }
 
@@ -122,8 +115,7 @@ namespace ShootingGame
 
         public Ship()
         {
-            
-
+           
             l.Add(new RectangleF(-10, -15, widthMainBody, heighMainBody));
             l.Add(new RectangleF(-20, -5, 10, 10));
             l.Add(new RectangleF(10, -5, 10, 10));
