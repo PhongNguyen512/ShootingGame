@@ -54,9 +54,10 @@ namespace ShootingGame
         private Stopwatch sw4Protect = new Stopwatch();
 
         protected Size s;
-
         
-
+        //Sometime visual studio show errors about missing music files in Resources.
+        //Unknow reason. 
+        //Solution: Go to Resources of the solution properties. Delete current file and add again in Additional Files folder      
         SoundPlayer endSound = new SoundPlayer(Properties.Resources.Computer_Error_Song);
 
         SoundPlayer ingameSound = new SoundPlayer(Properties.Resources.Batman_Theme);
